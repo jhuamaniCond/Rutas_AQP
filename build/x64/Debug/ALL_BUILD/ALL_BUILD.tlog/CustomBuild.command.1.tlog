@@ -1,0 +1,10 @@
+^C:\USERS\JEANPIEROHC\DOWNLOADS\RUTAS AREQUIPA\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/src" "-BC:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build" --check-stamp-file "C:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build/CMakeFiles/RutasArequipa.dir
+C:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build/CMakeFiles/ZERO_CHECK.dir

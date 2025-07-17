@@ -1,0 +1,10 @@
+^C:\USERS\JEANPIEROHC\DOWNLOADS\RUTAS AREQUIPA\BUILD\CMAKEFILES\07A725FD238B51D136422D681F77F7D9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/src" "-BC:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/JeanpieroHC/Downloads/RUTAS AREQUIPA/build/RutasArequipa.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
